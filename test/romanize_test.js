@@ -6,6 +6,11 @@ describe('Roman numeral converter', function () {
        let number = 20;
        assert.equal(romanizer.oldRoman(number), 'XX')
    });
+
+   it('converts a number to a roman numeral', function () {
+        let number = 50;
+        assert.equal(romanizer.oldRoman(number), 'L')
+   });
 });
 
 
